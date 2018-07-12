@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {CustomerLayoutComponent} from './layouts/customer-layout.component';
 import {OrderLayoutComponent} from './layouts/order-layout.component';
+import {HomeComponent} from './home.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: '',
-    pathMatch: 'full'
+    pathMatch: 'full',
+    component: HomeComponent
   }
 ];
 

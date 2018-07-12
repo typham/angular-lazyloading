@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {CustomerLayoutComponent} from './layouts/customer-layout.component';
 import {OrderLayoutComponent} from './layouts/order-layout.component';
+import {HomeComponent} from './home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerLayoutComponent,
-    OrderLayoutComponent
+    OrderLayoutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
